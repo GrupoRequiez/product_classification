@@ -3,7 +3,7 @@
 from odoo import fields, models, api, exceptions
 
 
-class StockMoveLineClassification(models.Model):
+class StockMoveLine(models.Model):
     _inherit = 'stock.move.line'
     _name = 'stock.move.line'
 

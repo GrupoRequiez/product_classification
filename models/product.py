@@ -3,7 +3,7 @@
 from odoo import fields, models, api, exceptions
 
 
-class ProductClassification(models.Model):
+class ProductTemplate(models.Model):
     _inherit = 'product.template'
     _name = 'product.template'
 
